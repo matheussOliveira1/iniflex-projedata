@@ -1,5 +1,5 @@
 import models.Funcionario;
-import service.PrincipalService;
+import service.FuncionarioService;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -8,7 +8,7 @@ import java.time.Month;
 public class Principal {
     public static void main(String[] args) {
 
-        PrincipalService gerente = new PrincipalService();
+        FuncionarioService gerente = new FuncionarioService();
 
         // 3.1 – Inserir todos os funcionários, na mesma ordem e informações da tabela
         gerente.addFuncionario(new Funcionario("Maria", LocalDate.of(2000, 10, 18), new BigDecimal("2009.44"), "Operador"));

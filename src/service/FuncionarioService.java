@@ -9,7 +9,7 @@ import java.time.Month;
 import java.time.Period;
 import java.util.*;
 
-public class PrincipalService {
+public class FuncionarioService {
 
     private List<Funcionario> funcionarios = new ArrayList<>();
 
